@@ -2,4 +2,4 @@
 
 ### Todo fue commiteado a la rama master, no vi necesidad de realizar otra rama.
 ##debajo el link de la web
-[corchetes](https://lautar1to.github.io/PreEntrega2Ferrario/]
+[https://lautar1to.github.io/PreEntrega2Ferrario/]
