@@ -21,8 +21,9 @@ tr td.a{
  div.col-md-auto {
     padding:22px;
   }
-  h5.card-title {
-  }
+
+ 
+
   @media only screen and (max-width: 768px) {
     h1.animate__animated.animate__pulse {
     color: #593528;
