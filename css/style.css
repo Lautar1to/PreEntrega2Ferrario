@@ -3,3 +3,22 @@
 body {
     background-color: #F2F2F2;
 }
+
+
+  h1.animate__animated.animate__pulse {
+    padding: 2px;
+    color: #26090E;
+  }
+  
+  div.carousel-item {
+    align-items: center;
+        width: 50%;
+        height: auto;
+  }
+  @media only screen and (max-width: 768px) {
+    h1.animate__animated.animate__pulse {
+    color: #593528;
+    max-width: auto;
+    animation-iteration-count: 5;
+    }
+  }
