@@ -4,7 +4,9 @@ body {
     background-color: #F2F2F2;
 }
 
-
+tr td.a{
+    color: #26090E;
+}
   h1.animate__animated.animate__pulse {
     padding: 2px;
     color: #26090E;
@@ -15,6 +17,12 @@ body {
         width: 50%;
         height: auto;
   }
+
+ div.col-md-auto {
+    padding:22px;
+  }
+  h5.card-title {
+  }
   @media only screen and (max-width: 768px) {
     h1.animate__animated.animate__pulse {
     color: #593528;
@@ -22,3 +30,24 @@ body {
     animation-iteration-count: 5;
     }
   }
+ /* supongo que si alguien se conecta desde una pc, es para robar precios, así que oculté el precio en esas dimensiones*/
+ @media (max-width:1400px) {
+    h5.card-title:before {
+        content: "Los precios se encuentran en pesos argentinos";
+    }
+}
+  @media only screen and (min-width: 1400px) {
+    tr  .a{ 
+        color: transparent;
+        size: 0px;
+    }
+    
+    tr td.a{
+        color: transparent;
+        size: 0px;
+    }
+
+    h5.card-title:before {
+        content: "Solicite los precios en el mostrador";
+    }
+  }  
