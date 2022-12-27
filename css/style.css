@@ -22,7 +22,9 @@ tr td.a{
     padding:22px;
   }
 
- 
+  card-header py-3 text-black {
+    color: red;
+  }
 
   @media only screen and (max-width: 768px) {
     h1.animate__animated.animate__pulse {
